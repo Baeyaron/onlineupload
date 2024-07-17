@@ -3,6 +3,8 @@
 #' @param request Internal parameter for `{shiny}`.
 #'     DO NOT REMOVE.
 #' @import shiny
+#' @import shinydashboard
+#' @import shinyjs
 #' @import rms
 #' @import cowplot
 #' @import fitdistrplus
@@ -14,8 +16,6 @@
 #' @import pROC
 #' @import survival
 #' @import openxlsx
-#' @import shinydashboard
-#' @import shinyjs
 #' @noRd
 app_ui <- function() {
   sidebar <- dashboardSidebar(
